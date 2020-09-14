@@ -1,0 +1,15 @@
+{
+  "name": "yashinu-oneri",
+  "version": "0.0.1",
+  "description": "Yashinu Oneri Bot",
+  "main": "yashinu.js",
+  "scripts": {
+    "test": "node yashinu.js"
+  },
+  "author": "Yashinu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "keywords": []
+}
