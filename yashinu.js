@@ -7,6 +7,7 @@ client.on("ready", async () => {
   let botVoiceChannel = client.channels.cache.get(botVoiceChannelID);
   if (botVoiceChannel) botVoiceChannel.join().catch(err => console.error("Bot ses kanalına bağlanamadı!"));
 });
+// Yashinu tarafından kodlanmıştır.
 
 let oneriler = new Set();
 client.on("message", async message => {
